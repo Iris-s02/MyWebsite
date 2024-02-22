@@ -1,0 +1,140 @@
+*{
+    font-family: Helvetica, sans-serif;
+    border:0px;
+    /* display: flex;
+    flex-direction: column; */
+    background-image: linear-gradient(to right, black, white);
+    
+}
+
+
+.header {
+background-color: blue;
+background-image: linear-gradient(to right, white, black);
+color: white;
+width:500px;
+height:500px;
+font-size: 5rem;
+
+
+}
+
+.header:hover{
+    background-image: linear-gradient(to left, white, black);
+    color: black; 
+}
+
+.header:active{
+    color: red;
+    background-image: linear-gradient(to right, white, red);
+    width:1000px;
+
+}
+
+.m4l{
+    background-color: white;
+    color: white;
+    font-size: 5rem;
+}
+
+.m4l:hover{
+    color: rgb(169, 235, 169);
+    background-image: linear-gradient(to right, red, white);
+    font-size: 5rem;
+}
+
+.m4l:active{
+    background-image: linear-gradient(to right, white, red);
+}
+
+.videocontainer {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column-reverse;
+    flex-shrink: 0.1;
+    border-spacing: 10px;
+    margin-right: 100px;
+}
+
+.first{
+    flex-grow: 2;
+}
+
+.music{
+    display:flex;
+    background-color: white;
+    color: white;
+    font-size: 5rem;
+    justify-content:right;
+    border-color: red;
+    border-width: 100px;
+    /* margin: 100px */
+    /* margin-right: 100px; */
+    /* margin-left: 100px; */
+}
+
+.music:hover{
+    color: blue;
+    background-image: linear-gradient(to right, white, rgb(155, 186, 155));
+    font-size: 5rem;
+}
+
+.music:active{
+    background-image: linear-gradient(to right, white, red);
+    justify-content: right;
+}
+
+.musicGallery{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 500px;
+    border: 10px;
+
+}
+
+.press {
+    display:flex;
+    background-color: white;
+    color: white;
+    font-size: 5rem;
+    justify-content:left;
+}
+
+.press:hover{
+    color: rgb(169, 235, 169);
+    background-image: linear-gradient(to right, white, blue);
+    font-size: 5rem;
+}
+
+.press:active{
+    background-image: linear-gradient(to right, white, red);
+    justify-content: left;
+}
+
+.pressContent{
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 3rem;
+    color: white;
+    grid-template-rows: masonry;
+}
+
+.about{
+    grid-template-columns:min-content;
+    grid-template-rows:min-content;
+    color: white;
+    display: flex;
+    margin-right: 700px;
+    margin-left: 300px;
+    background-image: linear-gradient(to left, blue, green)
+}
+
+.about:hover{
+    background-image: linear-gradient(to left, yellow, green)
+}
+
+.about:active{
+    background-image: linear-gradient(to left, yellow, red);
+    margin-right: 300px;
+}
+
