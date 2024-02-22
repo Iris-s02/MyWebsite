@@ -1,2 +1,2 @@
 # MyWebsite
-This is my website for media dn web development
+This is my website for media and web development
